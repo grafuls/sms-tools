@@ -12,6 +12,14 @@ In Ubuntu (which we strongly recommend) in order to install all these modules it
 
 <code>$ sudo apt-get install python-dev ipython python-numpy python-matplotlib python-scipy python-pygame cython</code>
 
+In Mac OS:
+
+<code>$ sudo pip install ipython numpy matplotlib scipy cython
+$ sudo port install mercurial
+$ sudo pip install hg+http://bitbucket.org/pygame/pygame</code>
+
+Note: for Mac OS the python-dev package would be satisfied with the installation of python 2.7.*
+
 then for using the tools, after downloading the whole package, you need to compile some C functions. For that you should go to the directory <code>software/models/utilFunctions_C</code> and type:</p>
 
 <code>$ python compileModule.py build_ext --inplace </code>
