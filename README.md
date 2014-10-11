@@ -16,6 +16,14 @@ In Mac OS:
 
 <code>$ sudo pip install ipython numpy matplotlib scipy cython</code>
 
+<code>$ sudo port install libsdl-framework</code>
+
+<code>$ sudo port install libsdl_ttf-framework</code>
+
+<code>$ sudo port install libsdl_image-framework</code>
+
+<code>$ sudo port install libsdl_mixer-framework</code>
+
 <code>$ sudo port install mercurial</code>
 
 <code>$ sudo pip install hg+http://bitbucket.org/pygame/pygame</code>
