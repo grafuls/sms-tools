@@ -14,9 +14,9 @@ In Ubuntu (which we strongly recommend) in order to install all these modules it
 
 In Mac OS:
 
-<code>$ sudo pip install ipython numpy matplotlib scipy cython
-$ sudo port install mercurial
-$ sudo pip install hg+http://bitbucket.org/pygame/pygame</code>
+<code>$ sudo pip install ipython numpy matplotlib scipy cython</code>
+<code>$ sudo port install mercurial</code>
+<code>$ sudo pip install hg+http://bitbucket.org/pygame/pygame</code>
 
 Note: for Mac OS the python-dev package would be satisfied with the installation of python 2.7.*
 
